@@ -18,33 +18,35 @@ public class KnightController : MonoBehaviour {
 
         if (yMove > 0) 
         {
-            SetMovingDirection(true, false, false, false);
+            SetDirection(true, false, false, false);
+            anim.SetFloat("movingState", 1.0f);
         } else if (yMove < 0)
         {
-            SetMovingDirection(false, false, false, true);
+            SetDirection(false, false, false, true);
+            anim.SetFloat("movingState", 1.0f);
         } else if (xMove > 0)
         {
-            SetMovingDirection(false, false, true, false);
+            SetDirection(false, false, true, false);
+            anim.SetFloat("movingState", 1.0f);
         } else if (xMove < 0)
         {
-            SetMovingDirection(false, true, false, false);
+            SetDirection(false, true, false, false);
+            anim.SetFloat("movingState", 1.0f);
         } else
         {
             anim.SetBool("isWalking", false);
+            anim.SetFloat("movingState", 0.0f);
         }
-        if (anim.GetBool("isWalking"))
-        {
-            transform.position = new Vector3(transform.position.x + xMove * speed / 100,
-                                                transform.position.y + yMove * speed / 100);
-        }
+        transform.position = new Vector3(transform.position.x + xMove * speed / 100,
+                                            transform.position.y + yMove * speed / 100);
 	}
 
-    void SetMovingDirection(bool top, bool left, bool right, bool bottom)
+    void SetDirection(bool top, bool left, bool right, bool bottom)
     {
-        anim.SetBool("isWalking", true);
         anim.SetBool("isFacingTop", top);
         anim.SetBool("isFacingLeft", left);
         anim.SetBool("isFacingRight", right);
         anim.SetBool("isFacingBottom", bottom);
     }
+
 }
