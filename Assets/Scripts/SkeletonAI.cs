@@ -5,13 +5,15 @@ using UnityEngine.UI;
 public class SkeletonAI : MonoBehaviour {
 	
 	Animator anim;
-	public Text xCor;
-	public Text yCor;
-
+	//public Text xCor;
+	//public Text yCor;
+	SpriteRenderer sr;
+	Collider2D[] colliders2D;
 	// Use this for initialization
 	void Start () {
 
 		anim = GetComponent<Animator> ();
+		sr = GetComponent<SpriteRenderer> ();
 
 	}
 
@@ -21,8 +23,19 @@ public class SkeletonAI : MonoBehaviour {
 		{		
 			float xDif = transform.position.x - sight.gameObject.transform.position.x;
 			float yDif = transform.position.y - sight.gameObject.transform.position.y;
-			xCor.text=string.Format("{0:f}", xDif);
-			yCor.text=string.Format("{0:f}", yDif);
+			//xCor.text=string.Format("{0:f}", xDif);
+			//yCor.text=string.Format("{0:f}", yDif);
+			colliders2D = gameObject.GetComponents<CircleCollider2D>();
+			foreach (Collider2D collider2D in colliders2D) {
+				if (collider2D.isTrigger) {
+					if (collider2D.transform.position.y + transform.position.y >
+					   sight.transform.position.y + sight.gameObject.transform.position.y) {
+						sr.sortingOrder = -1;
+					} else {
+						sr.sortingOrder = 1;
+					}
+				}
+			}
 			if (Mathf.Abs (xDif) > Mathf.Abs (yDif)) {
 				if (xDif > 0) {
 					SetFacingDirection (false, true, false, false);
