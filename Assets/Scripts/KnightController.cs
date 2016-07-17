@@ -46,7 +46,6 @@ public class KnightController : MonoBehaviour
                 gotAttackChecked = false;
             }
         } else {
-
             if (Input.GetKey(KeyCode.UpArrow)) {
                 if (Input.GetKey(KeyCode.LeftArrow)) {
                     zMove = 1.0f;
@@ -103,9 +102,15 @@ public class KnightController : MonoBehaviour
             } else {
                 SetActionType(Constants.Idle);
             }
-            transform.position = new Vector3(transform.position.x + xMove * baseSpeed / 100,
+            if (zMove != 0 && xMove != 0) {
+                transform.position = new Vector3(transform.position.x + xMove * baseSpeed * Mathf.Sqrt(0.5f) / 100,
                                                 transform.position.y,
-                                                    transform.position.z + zMove * baseSpeed / 100);
+                                                    transform.position.z + zMove * baseSpeed * Mathf.Sqrt(0.5f) / 100);
+            } else {
+                transform.position = new Vector3(transform.position.x + xMove * baseSpeed / 100,
+                                                    transform.position.y,
+                                                        transform.position.z + zMove * baseSpeed / 100);
+            }
         }
     }
 
