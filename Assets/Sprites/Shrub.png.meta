@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: 279983b3bad60fa4b963a8da6509cb9d
+timeCreated: 1468421658
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Shrub
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Shrub
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 446
+        width: 443
+        height: 322
+      alignment: 9
+      pivot: {x: 0.5149321, y: 0.23293556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122.88507, y: -55.00525}
+        - {x: 151.88507, y: -32.00525}
+        - {x: 167.88507, y: -15.005249}
+        - {x: 177.88507, y: -1.005249}
+        - {x: 186.88507, y: 22.994751}
+        - {x: 205.88507, y: 42.99475}
+        - {x: 213.88507, y: 55.99475}
+        - {x: 214.88507, y: 60.99475}
+        - {x: 214.88507, y: 96.99475}
+        - {x: 212.88507, y: 102.99475}
+        - {x: 203.88507, y: 120.99475}
+        - {x: 178.88507, y: 157.99475}
+        - {x: 168.88507, y: 168.99475}
+        - {x: 158.88507, y: 194.99475}
+        - {x: 147.88507, y: 214.99475}
+        - {x: 140.88507, y: 222.99475}
+        - {x: 128.88507, y: 233.99475}
+        - {x: 122.88507, y: 238.99475}
+        - {x: 113.88507, y: 243.99475}
+        - {x: 106.88507, y: 246.99475}
+        - {x: -91.11493, y: 246.99475}
+        - {x: -96.11493, y: 244.99475}
+        - {x: -127.11493, y: 233.99475}
+        - {x: -150.11493, y: 220.99475}
+        - {x: -180.11493, y: 188.99475}
+        - {x: -197.11493, y: 175.99475}
+        - {x: -213.11493, y: 161.99475}
+        - {x: -228.11493, y: 132.99475}
+        - {x: -228.11493, y: 44.99475}
+        - {x: -224.11493, y: 19.994751}
+        - {x: -217.11493, y: 6.994751}
+        - {x: -197.11493, y: -16.005249}
+        - {x: -181.11493, y: -26.005249}
+        - {x: -172.11493, y: -31.005249}
+        - {x: -142.11493, y: -57.00525}
+        - {x: -126.11493, y: -65.00525}
+        - {x: -100.11493, y: -64.00525}
+        - {x: -78.11493, y: -61.00525}
+        - {x: -62.11493, y: -68.00525}
+        - {x: -40.11493, y: -72.00525}
+        - {x: -23.11493, y: -75.00525}
+        - {x: 28.88507, y: -75.00525}
+        - {x: 46.88507, y: -70.00525}
+        - {x: 75.88507, y: -66.00525}
+        - {x: 98.88507, y: -65.00525}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: d297cee7dc0de8740bd713ab6f9d75f3
+timeCreated: 1468421045
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KnightTop
+    21300002: KnightLeft
+    21300004: KnightRight
+    21300006: KnightBottom
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KnightTop
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 642
+        width: 70
+        height: 89
+      alignment: 9
+      pivot: {x: 0.48577324, y: 0.04474014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.0041275, y: 85.01813}
+        - {x: -34.004128, y: 66.01813}
+        - {x: -34.004128, y: -2.9818726}
+        - {x: -33.004128, y: -3.9818726}
+        - {x: 35.995872, y: -3.9818726}
+        - {x: 35.995872, y: 67.01813}
+        - {x: 26.995872, y: 85.01813}
+    - name: KnightLeft
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 444
+        width: 63
+        height: 90
+      alignment: 9
+      pivot: {x: 0.40070608, y: 0.100862294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.244484, y: 80.92239}
+        - {x: -25.244484, y: -9.077606}
+        - {x: 36.755516, y: -9.077606}
+        - {x: 37.755516, y: -8.077606}
+        - {x: 37.755516, y: 31.922394}
+        - {x: 32.755516, y: 80.92239}
+    - name: KnightRight
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 222
+        width: 52
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5203809, y: 0.09372531}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.059807, y: 80.65845}
+        - {x: -27.059807, y: 75.65845}
+        - {x: -27.059807, y: -1.3415527}
+        - {x: -24.059807, y: -8.341553}
+        - {x: 24.940193, y: -8.341553}
+        - {x: 24.940193, y: 73.65845}
+        - {x: 19.940193, y: 80.65845}
+    - name: KnightBottom
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 45
+        width: 73
+        height: 91
+      alignment: 9
+      pivot: {x: 0.444527, y: 0.06970433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.54953, y: 84.656906}
+        - {x: -11.45047, y: 84.656906}
+        - {x: -32.45047, y: 82.656906}
+        - {x: -32.45047, y: -6.343094}
+        - {x: 35.54953, y: -6.343094}
+        - {x: 40.54953, y: 0.6569061}
+        - {x: 40.54953, y: 40.656906}
+        - {x: 24.54953, y: 67.656906}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

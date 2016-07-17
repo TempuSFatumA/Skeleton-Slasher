@@ -1,0 +1,83 @@
+fileFormatVersion: 2
+guid: 1067615f7c3967040badaf8a8d58cb38
+timeCreated: 1468514090
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KnightBottomAttack2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KnightBottomAttack2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 96
+        width: 159
+        height: 189
+      alignment: 9
+      pivot: {x: 0.356372, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.663147, y: -22.46}
+        - {x: -41.663147, y: -26.46}
+        - {x: 19.336853, y: -26.46}
+        - {x: 102.33685, y: 8.540001}
+        - {x: 102.33685, y: 82.54}
+        - {x: 47.336853, y: 162.54001}
+        - {x: -29.663147, y: 162.54001}
+        - {x: -56.663147, y: 147.54001}
+        - {x: -56.663147, y: 53.54}
+      - - {x: 89.33685, y: -5.459999}
+        - {x: 92.33685, y: -4.459999}
+        - {x: 92.33685, y: -1.4599991}
+        - {x: 89.33685, y: -0.45999908}
+        - {x: 87.33685, y: -2.459999}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

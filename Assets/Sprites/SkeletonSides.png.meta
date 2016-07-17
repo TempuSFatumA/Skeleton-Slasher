@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 4f523a764ed412346a0cddbbfec468b3
+timeCreated: 1468421116
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SkeletonTop
+    21300002: SkeletonLeft
+    21300004: SkeletonRight
+    21300006: SkeletonBottom
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SkeletonTop
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 611
+        width: 97
+        height: 154
+      alignment: 9
+      pivot: {x: 0.44307733, y: 0.037482325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.0215, y: -5.772278}
+        - {x: 54.0215, y: 34.227722}
+        - {x: 54.0215, y: 89.22772}
+        - {x: 22.0215, y: 148.22772}
+        - {x: -8.9785, y: 148.22772}
+        - {x: -42.9785, y: 104.22772}
+        - {x: -42.9785, y: 48.227722}
+        - {x: -33.9785, y: 48.227722}
+        - {x: -26.9785, y: 60.227722}
+        - {x: -20.9785, y: 82.22772}
+        - {x: -28.9785, y: 20.227722}
+        - {x: -27.9785, y: -5.772278}
+        - {x: -4.9785004, y: -5.772278}
+        - {x: -3.9785004, y: -4.772278}
+        - {x: -2.9785004, y: 16.227722}
+        - {x: 5.0214996, y: -2.7722778}
+        - {x: 7.0214996, y: -5.772278}
+    - name: SkeletonLeft
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 430
+        width: 90
+        height: 152
+      alignment: 9
+      pivot: {x: 0.58589095, y: 0.038660955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.269814, y: 144.12354}
+        - {x: 12.269814, y: 146.12354}
+        - {x: -25.730186, y: 146.12354}
+        - {x: -52.730186, y: 95.123535}
+        - {x: -52.730186, y: -5.876465}
+        - {x: 37.269814, y: -5.876465}
+        - {x: 37.269814, y: 69.123535}
+        - {x: 33.269814, y: 112.123535}
+    - name: SkeletonRight
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 233
+        width: 98
+        height: 156
+      alignment: 9
+      pivot: {x: 0.35914433, y: 0.043410864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.196144, y: 149.2279}
+        - {x: -35.196144, y: -6.7720947}
+        - {x: 45.803856, y: -6.7720947}
+        - {x: 62.803856, y: 16.227905}
+        - {x: 62.803856, y: 133.2279}
+        - {x: 33.803856, y: 149.2279}
+    - name: SkeletonBottom
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 33
+        width: 84
+        height: 157
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04280185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -6.7198944}
+        - {x: 31, y: -5.7198944}
+        - {x: 26, y: 22.280106}
+        - {x: 22, y: 24.280106}
+        - {x: 25, y: 41.280106}
+        - {x: 24, y: 54.280106}
+        - {x: 30, y: 47.280106}
+        - {x: 37, y: 45.280106}
+        - {x: 42, y: 50.280106}
+        - {x: 42, y: 96.280106}
+        - {x: 13, y: 147.2801}
+        - {x: 9, y: 150.2801}
+        - {x: -16, y: 150.2801}
+        - {x: -42, y: 112.280106}
+        - {x: -42, y: 45.280106}
+        - {x: -41, y: 37.280106}
+        - {x: -29, y: -0.7198944}
+        - {x: -25, y: -6.7198944}
+        - {x: -6, y: -6.7198944}
+        - {x: 2, y: 10.280106}
+        - {x: 4, y: 0.2801056}
+        - {x: 9, y: -6.7198944}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

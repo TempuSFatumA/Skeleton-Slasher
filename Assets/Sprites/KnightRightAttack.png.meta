@@ -1,0 +1,95 @@
+fileFormatVersion: 2
+guid: 04406c516d61c8c4aa7c1c9f6456e8e6
+timeCreated: 1468513906
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KnightRightAttack_1
+    21300002: KnightRightAttack_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 256
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KnightRightAttack_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 15
+        width: 88
+        height: 91
+      alignment: 9
+      pivot: {x: 0.33, y: 0.102}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.04, y: 81.718}
+        - {x: -29.04, y: -7.2819977}
+        - {x: -16.04, y: -9.281998}
+        - {x: 9.959999, y: -9.281998}
+        - {x: 58.96, y: 32.718002}
+        - {x: 58.96, y: 72.718}
+        - {x: 44.96, y: 81.718}
+    - name: KnightRightAttack_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 8
+        width: 58
+        height: 111
+      alignment: 9
+      pivot: {x: 0.5, y: 0.084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -3.3239975}
+        - {x: -10, y: -9.3239975}
+        - {x: 16, y: -9.3239975}
+        - {x: 29, y: -0.3239975}
+        - {x: 29, y: 101.676}
+        - {x: -27, y: 101.676}
+        - {x: -29, y: 100.676}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

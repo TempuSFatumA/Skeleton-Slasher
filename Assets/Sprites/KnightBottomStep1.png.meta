@@ -1,0 +1,90 @@
+fileFormatVersion: 2
+guid: 5f3dd1cfd1afba548a302c3eac2b223a
+timeCreated: 1468431289
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KnightBottomStep1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KnightBottomStep1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 112
+        width: 188
+        height: 187
+      alignment: 9
+      pivot: {x: 0.45401594, y: 0.06428034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102.645004, y: 30.979576}
+        - {x: 102.645004, y: 69.979576}
+        - {x: 24.645004, y: 174.97958}
+        - {x: -66.354996, y: 174.97958}
+        - {x: -85.354996, y: 109.979576}
+        - {x: -85.354996, y: -6.020424}
+        - {x: -80.354996, y: -7.020424}
+        - {x: -48.354996, y: 5.979576}
+        - {x: -53.354996, y: 24.979576}
+        - {x: -43.354996, y: -10.020424}
+        - {x: -36.354996, y: -12.020424}
+        - {x: -9.354996, y: -12.020424}
+        - {x: -6.3549957, y: -8.020424}
+        - {x: 0.6450043, y: -12.020424}
+        - {x: 53.645004, y: -12.020424}
+      - - {x: 75.645004, y: 6.979576}
+        - {x: 77.645004, y: 4.979576}
+        - {x: 80.645004, y: 5.979576}
+        - {x: 80.645004, y: 13.979576}
+        - {x: 78.645004, y: 15.979576}
+        - {x: 75.645004, y: 14.979576}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,117 @@
+fileFormatVersion: 2
+guid: 66bf1e52445000140841e30ae83a3572
+timeCreated: 1468514021
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KnightBottomAttack1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: KnightBottomAttack1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 110
+        width: 226
+        height: 189
+      alignment: 9
+      pivot: {x: 0.5474484, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.276672, y: 162.54}
+        - {x: -123.72333, y: 162.54}
+        - {x: -123.72333, y: 91.53999}
+        - {x: -56.723328, y: -26.460007}
+        - {x: 10.276672, y: -26.460007}
+        - {x: 32.276672, y: -14.460007}
+        - {x: 42.276672, y: -8.460007}
+        - {x: 102.27667, y: 28.539993}
+        - {x: 102.27667, y: 94.53999}
+      - - {x: 33.276672, y: -25.460007}
+        - {x: 36.276672, y: -24.460007}
+        - {x: 36.276672, y: -21.460007}
+        - {x: 33.276672, y: -20.460007}
+        - {x: 31.276672, y: -22.460007}
+      - - {x: 49.276672, y: -22.460007}
+        - {x: 52.276672, y: -21.460007}
+        - {x: 52.276672, y: -18.460007}
+        - {x: 49.276672, y: -17.460007}
+        - {x: 47.276672, y: -19.460007}
+      - - {x: -61.723328, y: -11.460007}
+        - {x: -58.723328, y: -9.460007}
+        - {x: -60.723328, y: -4.4600067}
+        - {x: -63.723328, y: -4.4600067}
+        - {x: -64.72333, y: -7.4600067}
+      - - {x: 87.27667, y: -3.4600067}
+        - {x: 89.27667, y: -5.4600067}
+        - {x: 92.27667, y: -4.4600067}
+        - {x: 92.27667, y: -1.4600067}
+        - {x: 90.27667, y: 0.5399933}
+        - {x: 87.27667, y: -0.4600067}
+      - - {x: -82.72333, y: 17.539993}
+        - {x: -81.72333, y: 14.539993}
+        - {x: -77.72333, y: 14.539993}
+        - {x: -75.72333, y: 16.539993}
+        - {x: -76.72333, y: 19.539993}
+        - {x: -80.72333, y: 19.539993}
+      - - {x: -109.72333, y: 84.53999}
+        - {x: -106.72333, y: 85.53999}
+        - {x: -106.72333, y: 88.53999}
+        - {x: -109.72333, y: 89.53999}
+        - {x: -111.72333, y: 87.53999}
+      - - {x: -123.72333, y: 93.53999}
+        - {x: -123.72333, y: 89.53999}
+        - {x: -121.72333, y: 87.53999}
+        - {x: -119.72333, y: 87.53999}
+        - {x: -117.72333, y: 89.53999}
+        - {x: -119.72333, y: 94.53999}
+        - {x: -122.72333, y: 94.53999}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
