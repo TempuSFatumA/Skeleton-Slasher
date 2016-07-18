@@ -16,7 +16,7 @@ public class KnightController : MonoBehaviour
     Vector3 macePosition;
     float xMove;
     float zMove;
-
+     
     void Start()
     {
         gotAttackChecked = false;
