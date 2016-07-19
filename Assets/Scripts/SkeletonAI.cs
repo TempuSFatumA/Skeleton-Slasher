@@ -7,12 +7,12 @@ public class SkeletonAI : MonoBehaviour
 
     public GameObject Representation;
 
-    Animator anim;
+    AnimatorStatesController asc;
 
     void Start()
     {
-        anim = Representation.GetComponent<Animator>();
-        //SetFacingDirection(Constants.Bottom);
+        asc = new AnimatorStatesController(Representation.GetComponent<Animator>());
+        asc.SetFacingDirection(Constants.Bottom);
     }
 
     void OnTriggerStay(Collider intruder)
@@ -22,23 +22,20 @@ public class SkeletonAI : MonoBehaviour
             float zDif = transform.position.z - intruder.gameObject.transform.position.z;
             if (Mathf.Abs(xDif) > Mathf.Abs(zDif)) {
                 if (xDif > 0) {
-                    SetFacingDirection(Constants.Left);
+                    asc.SetFacingDirection(Constants.Left);
                 } else {
-                    SetFacingDirection(Constants.Right);
+                    asc.SetFacingDirection(Constants.Right);
                 }
             } else {
                 if (zDif > 0) {
-                    SetFacingDirection(Constants.Bottom);
+                    asc.SetFacingDirection(Constants.Bottom);
                 } else {
-                    SetFacingDirection(Constants.Top);
+                    asc.SetFacingDirection(Constants.Top);
                 }
             }
-            anim.SetBool("gotPlayerSpotted", true);
+            asc.animator.SetBool("gotPlayerSpotted", true);
         } else {
-            anim.SetBool("gotPlayerSpotted", false);
+            asc.animator.SetBool("gotPlayerSpotted", false);
         }
     }
-
-    void SetActionType(float _State) { anim.SetFloat("actionType", _State); }
-    void SetFacingDirection(float _Direction) { anim.SetFloat("facingDirection", _Direction); }
 }

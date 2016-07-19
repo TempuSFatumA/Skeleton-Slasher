@@ -10,10 +10,12 @@ public class KnightController : MonoBehaviour
     public Text score;
     public bool gotAttackFinished;
 
-    Animator anim;
+    public Text text1;
+    public Text text2;
+
+    AnimatorStatesController asc;
     bool gotAttackChecked;
     int successfullAttacksCount;
-    Vector3 macePosition;
     float xMove;
     float zMove;
 
@@ -22,18 +24,19 @@ public class KnightController : MonoBehaviour
         gotAttackChecked = false;
         successfullAttacksCount = 0;
         score.text = "Skulls: " + successfullAttacksCount.ToString();
-        anim = Representation.GetComponent<Animator>();
-        SetFacingDirection(Constants.Bottom);
-        SetActionType(Constants.Idle);
+        asc = new AnimatorStatesController(Representation.GetComponent<Animator>());
+        asc.SetFacingDirection(Constants.Bottom);
+        asc.SetActionType(Constants.Idle);
     }
 
     void Update()
     {
         if (Input.GetKey(KeyCode.Space)) {
-            SetActionType(Constants.Attack);
+            asc.SetActionType(Constants.Attack);
             if (gotAttackFinished) {
                 if (!gotAttackChecked) {
-                    Collider[] hitColliders = Physics.OverlapSphere(macePosition, 0.25f, whatIsEnemy);
+                    Collider[] hitColliders = Physics.OverlapSphere(GetMacePositionByDirection(asc.GetFacingDirection()),
+                                                                        0.25f, whatIsEnemy);
                     foreach (Collider hitCollider in hitColliders) {
                         if (!hitCollider.isTrigger) {
                             successfullAttacksCount++;
@@ -88,20 +91,21 @@ public class KnightController : MonoBehaviour
             }
 
             if (zMove > 0) {
-                SetFacingDirection(Constants.Top);
-                SetActionType(Constants.Walk);
+                asc.SetFacingDirection(Constants.Top);
+                asc.SetActionType(Constants.Walk);
             } else if (zMove < 0) {
-                SetFacingDirection(Constants.Bottom);
-                SetActionType(Constants.Walk);
+                asc.SetFacingDirection(Constants.Bottom);
+                asc.SetActionType(Constants.Walk);
             } else if (xMove > 0) {
-                SetFacingDirection(Constants.Right);
-                SetActionType(Constants.Walk);
+                asc.SetFacingDirection(Constants.Right);
+                asc.SetActionType(Constants.Walk);
             } else if (xMove < 0) {
-                SetFacingDirection(Constants.Left);
-                SetActionType(Constants.Walk);
+                asc.SetFacingDirection(Constants.Left);
+                asc.SetActionType(Constants.Walk);
             } else {
-                SetActionType(Constants.Idle);
+                asc.SetActionType(Constants.Idle);
             }
+
             if (zMove != 0 && xMove != 0) {
                 transform.position = new Vector3(transform.position.x + xMove * baseSpeed * Mathf.Sqrt(0.5f) / 100,
                                                 transform.position.y,
@@ -114,24 +118,18 @@ public class KnightController : MonoBehaviour
         }
     }
 
-    void SetActionType(float _State)
+    Vector3 GetMacePositionByDirection(float _Direction)
     {
-        anim.SetFloat("actionType", _State);
-    }
-    void SetFacingDirection(float _Direction)
-    {
-        anim.SetFloat("facingDirection", _Direction);
         if (_Direction == Constants.Top) {
-            macePosition = new Vector3(transform.position.x, transform.position.y, transform.position.z + 1.15f);
+            return new Vector3(transform.position.x, transform.position.y, transform.position.z + 1.15f);
         } else if (_Direction == Constants.Left) {
-            macePosition = new Vector3(transform.position.x - 1.15f, transform.position.y, transform.position.z);
+            return new Vector3(transform.position.x - 1.15f, transform.position.y, transform.position.z);
         } else if (_Direction == Constants.Right) {
-            macePosition = new Vector3(transform.position.x + 1f, transform.position.y, transform.position.z);
+            return new Vector3(transform.position.x + 1f, transform.position.y, transform.position.z);
         } else if (_Direction == Constants.Bottom) {
-            macePosition = new Vector3(transform.position.x, transform.position.y, transform.position.z - 1.15f);
+            return new Vector3(transform.position.x, transform.position.y, transform.position.z - 1.15f);
         } else {
-            macePosition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+            return new Vector3(transform.position.x, transform.position.y, transform.position.z);
         }
     }
-    float GetFacingDirection() { return anim.GetFloat("facingDirection"); }
 }

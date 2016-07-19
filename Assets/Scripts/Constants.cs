@@ -13,6 +13,6 @@ public class Constants
     public const float Left = 2.0f;
     public const float Right = 3.0f;
     public const float Bottom = 4.0f;
-
+    
     private Constants() { }
 }
